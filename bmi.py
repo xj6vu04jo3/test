@@ -17,4 +17,4 @@ if confirm_input:
     elif (bmi < 27):
         st.write('體重過重')
     else:
-        st.write('體重肥胖')==
+        st.write('體重肥胖')
