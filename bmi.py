@@ -13,7 +13,7 @@ if confirm_input:
     if (bmi < 18):
         st.write('體重過輕')
     elif (bmi < 24):
-    st.write('體重正常')
+        st.write('體重正常')
     elif (bmi < 27):
         st.write('體重過重')
     else:
