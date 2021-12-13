@@ -25,10 +25,10 @@ def tax():
    pd=ps+t
    q2=a-b*pd
    eq=((pd,2),(q2,2))
-   q=st.(pd-p1,2)
-   w=st.((pd-p1)/t,2)
-   e=st.(p1-ps,2)
-   r=st.((p1-ps)/t,2)
+   q=(pd-p1,2)
+   w=((pd-p1)/t,2)
+   e=(p1-ps,2)
+   r=((p1-ps)/t,2)
    st.write('稅後均衡價格與數量：')
    st.write(eq)
    st.write('轉嫁給消費者的稅：')
