@@ -19,7 +19,7 @@ def tax():
    b=st.slider('需求線斜率(絕對值)')
    c=st.slider('供給線截距')
    d=st.slider('供給線斜率')
-   t=st.slider('稅'))
+   t=st.slider('稅')
    p1=(a-c)/(b+d)
    ps=(a-c-b*t)/(b+d)
    pd=ps+t
