@@ -3,7 +3,7 @@ import streamlit as st
 x = st.slider('Select a value')
 
 def ds():
-    print("D=S：a-bp=c+dp")
+    st.write("D=S：a-bp=c+dp")
     a=st.slider('a=')
     b=st.slider('b=')
     c=st.slider('c=')
