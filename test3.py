@@ -24,7 +24,7 @@ def tax():
    ps=(a-c-b*t)/(b+d)
    pd=ps+t
    q2=a-b*pd
-   eq=(st.(pd,2),st.(q2,2))
+   eq=((pd,2),(q2,2))
    q=st.(pd-p1,2)
    w=st.((pd-p1)/t,2)
    e=st.(p1-ps,2)
