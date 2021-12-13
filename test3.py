@@ -24,11 +24,11 @@ def tax():
    ps=(a-c-b*t)/(b+d)
    pd=ps+t
    q2=a-b*pd
-   eq=(st.round(pd,2),st.round(q2,2))
-   q=st.round(pd-p1,2)
-   w=st.round((pd-p1)/t,2)
-   e=st.round(p1-ps,2)
-   r=st.round((p1-ps)/t,2)
+   eq=(st.(pd,2),st.(q2,2))
+   q=st.(pd-p1,2)
+   w=st.((pd-p1)/t,2)
+   e=st.(p1-ps,2)
+   r=st.((p1-ps)/t,2)
    st.write('稅後均衡價格與數量：')
    st.write(eq)
    st.write('轉嫁給消費者的稅：')
