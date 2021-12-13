@@ -14,7 +14,7 @@ def ds():
     return p,q
 
 def tax():
-   st.slider("Pd=Ps+t")
+   st.write("Pd=Ps+t")
     a=st.slider('需求線截距')
     b=st.slider('需求線斜率(絕對值)')
     c=st.slider('供給線截距')
